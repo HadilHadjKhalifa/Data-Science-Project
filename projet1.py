@@ -3,7 +3,7 @@ import numpy as np
 import pandera as pa
 # Load the Excel file
 df = pd.read_excel(
-    r"C:\Users\hadil\OneDrive\Desktop\data sc\Dataset for Data Analytics.xlsx"
+    r"C:\Users\hadil\OneDrive\Desktop\data sc\Dataset_notCleaned.xlsx"
 )
 
 df["CouponCode"] = df["CouponCode"].fillna("No Coupon")# Replace missing values in CouponCode with "No Coupon"
